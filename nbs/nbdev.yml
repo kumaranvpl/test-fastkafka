@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "test-fastkafka"
+  site-url: "https://kumaranvpl.github.io/test-fastkafka"
+  description: "Repo to test fastkafka"
+  repo-branch: main
+  repo-url: "https://github.com/kumaranvpl/test-fastkafka"
