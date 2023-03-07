@@ -41,8 +41,8 @@ class IrisPrediction(BaseModel):
 
 
 # %% ../nbs/00_application.ipynb 9
-kafka_server_url = environ["KAFKA_HOSTNAME"]
-kafka_server_port = environ["KAFKA_PORT"]
+kafka_server_url = environ.get("KAFKA_HOSTNAME", "localhost")
+kafka_server_port = environ.get("KAFKA_PORT", 9092)
 
 kafka_brokers = {
     "localhost": {
