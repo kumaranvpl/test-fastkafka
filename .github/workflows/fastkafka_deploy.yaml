@@ -9,3 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: airtai/workflows/fastkafka-ghp@publish-fastkafka-docs
+        with:
+          app: "test_fastkafka.application:app"
